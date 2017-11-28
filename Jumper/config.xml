@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="jump1135" version="0.0.1">
+
+	<name>Jumper</name>
+	<description>Tilt &amp; Jump</description>
+	<author>SC96 Games</author>
+
+	<icon src="icon-128.png" width="128" height="128" />
+	<icon src="icon-256.png" width="256" height="256" gap:role="default" />
+
+	<preference name="permissions" value="none"/>
+	<preference name="android-targetSdkVersion" value="23" />
+
+	<feature name="http://api.phonegap.com/1.0/network"/>
+
+	<preference name="orientation" value="default" />
+	<preference name="fullscreen" value="true" />
+	<gap:config-file platform="ios" parent="UIStatusBarHidden"><true/></gap:config-file>
+	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
+	<preference name="android-minSdkVersion" value="21" />
+	<plugin name="cordova-plugin-whitelist" source="npm" />
+	<access origin="*" />
+
+	<!-- Optional splash screen image, e.g.: -->
+	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
+
+</widget>
